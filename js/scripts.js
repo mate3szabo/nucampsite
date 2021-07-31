@@ -12,9 +12,9 @@ $(function () {
         }
     });
     $("#reserveModalButton").click(function () {
-        $("#reserveModal").modal("toggle");
+        $("#reserveModal").modal("show");
     });
     $("#loginButton").click(function () {
-        $("#loginModal").modal("toggle");
+        $("#loginModal").modal("show");
     });
 });
